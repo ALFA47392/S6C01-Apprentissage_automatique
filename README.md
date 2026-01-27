@@ -8,8 +8,6 @@
 
 ----
 
-# SAE 6.1 : Analyse Intelligente des Avis Yelp
-
 **Matière :** SAE -S6.C01 : Apprentissage automatique 
 **Date Début :** 26 Janvier 2026  
 **Support :** [Yelp Open Dataset](https://www.yelp.com/dataset)
