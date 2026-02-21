@@ -1,0 +1,82 @@
+Deep Learning performance Lucie avec 20 000 dataset
+-------------------
+--- Modèle MLP ---
+-------------------
+MLP score (étoiles) :
+Précision (Accuracy) : 0.6559
+F1-Score (ajusté selon la quantité d'avis par étoile)   : 0.6502
+Perte (Log Loss)     : 0.7769
+
+Rapport détaillé :
+              precision    recall  f1-score   support
+
+    1 étoile       0.75      0.77      0.76      1506
+    2 étoile       0.39      0.49      0.44       781
+    3 étoile       0.38      0.44      0.41       933
+    4 étoile       0.49      0.48      0.49      2109
+    5 étoile       0.83      0.77      0.80      4660
+
+    accuracy                           0.66      9989
+   macro avg       0.57      0.59      0.58      9989
+weighted avg       0.67      0.66      0.66      9989
+
+
+------------------
+MLP polarité (label) :
+Précision (Accuracy) : 0.7890
+F1-Score (Ajusté)    : 0.8187
+Perte (Log Loss)     : 0.5013
+
+Rapport détaillé :
+              precision    recall  f1-score   support
+
+      neutre       0.30      0.70      0.42      1000
+     négatif       0.86      0.78      0.81      2315
+     positif       0.97      0.81      0.88      6674
+
+    accuracy                           0.79      9989
+   macro avg       0.71      0.76      0.70      9989
+weighted avg       0.87      0.79      0.82      9989
+
+
+-------------------
+--- Modèle CNN ---
+-------------------
+CNN score (étoiles) :
+Précision (Accuracy) : 0.6159
+F1-Score (Ajusté selon la quantité d'avis par étoile) : 0.6239
+Perte (Log Loss)     : 0.9109
+
+Rapport détaillé :
+              precision    recall  f1-score   support
+
+    1 étoile       0.78      0.69      0.73      1527
+    2 étoile       0.34      0.48      0.40       764
+    3 étoile       0.31      0.53      0.39       917
+    4 étoile       0.42      0.32      0.36      2065
+    5 étoile       0.81      0.76      0.78      4718
+
+    accuracy                           0.62      9991
+   macro avg       0.53      0.56      0.53      9991
+   weighted avg       0.64      0.62      0.62      9991
+
+
+-------------------
+CNN polarité (label) : 
+Précision (Accuracy) : 0.8194
+F1-Score (ajusté selon la quantité d'avis par étoile)   : 0.8291
+Perte (Log Loss)     : 0.4732
+
+Rapport détaillé :
+              precision    recall  f1-score   support
+
+     Négatif       0.33      0.49      0.40       388
+      Neutre       0.87      0.72      0.78       953
+     Positif       0.91      0.90      0.91      2656
+
+    accuracy                           0.82      3997
+   macro avg       0.70      0.71      0.70      3997
+weighted avg       0.85      0.82      0.83      3997
+
+
+
