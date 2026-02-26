@@ -31,7 +31,6 @@ Le projet s'appuie sur le **Yelp Open Dataset**, un jeu de données riche compre
 * `review.json` : Texte des avis et notes (1-5 étoiles).
 * `business.json` : Métadonnées des commerces (catégorie, localisation).
 * `user.json` : Profils des utilisateurs (influence, ancienneté).
-* `photo.json` : Métadonnées des images associées.
 
 > **Attention :** Les fichiers de données étant volumineux, ils ne sont pas inclus dans ce dépôt. Veuillez les placer dans le dossier `data/raw/` après téléchargement.
 
@@ -60,7 +59,7 @@ Nous avons comparé plusieurs approches pour deux tâches :
 | :--- | :--- | :--- | :--- |
 | **Bag-of-Words** | Régression Logistique | MLP (Dense) | - |
 | **TF-IDF** | SVM | - | - |
-| **Embeddings** | - | CNN (Conv1D) | BERT / RoBERTa (Fine-tuning) |
+| **Embeddings** | - | CNN (Conv1D) | LSTM | BERT / RoBERTa (Fine-tuning) |
 
 ### 3. IA Générative et Agentique (GenAI)
 Utilisation de **LLM (Large Language Models)** via LangChain/LlamaIndex pour aller au-delà de la classification simple :
