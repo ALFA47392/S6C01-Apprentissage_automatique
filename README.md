@@ -59,7 +59,7 @@ Nous avons comparé plusieurs approches pour deux tâches :
 | :--- | :--- | :--- | :--- |
 | **Bag-of-Words** | Régression Logistique | MLP (Dense) | - |
 | **TF-IDF** | SVM | - | - |
-| **Embeddings** | - | CNN (Conv1D) | LSTM | BERT / RoBERTa (Fine-tuning) |
+| **Embeddings** | - | CNN (Conv1D) / LSTM | BERT / RoBERTa (Fine-tuning) |
 
 ### 3. IA Générative et Agentique (GenAI)
 Utilisation de **LLM (Large Language Models)** via LangChain/LlamaIndex pour aller au-delà de la classification simple :
